@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/statusMessageTextView"
+		android:text="@string/statustext" android:layout_margin="5dp"
+		android:gravity="center" android:textSize="20sp" android:textStyle="bold" />
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/statusMessageEditText"
+		android:layout_margin="5dp" android:textSize="20sp" />
+	<ImageView android:src="@drawable/icon" android:id="@+id/imageImageView"
+		android:layout_width="100dp" android:layout_height="100dp"
+		android:layout_gravity="center"></ImageView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout1">
+		<Button android:layout_height="wrap_content" android:id="@+id/fromGalleryButton" android:layout_width="fill_parent"
+			android:layout_weight="0.5" android:layout_margin="5dp" android:text="@string/gallery"></Button>
+		<Button android:layout_height="wrap_content"
+			android:id="@+id/fromCameraButton" android:layout_margin="5dp"
+			android:layout_width="fill_parent" android:layout_weight="0.5" android:text="@string/camera"></Button>
+	</LinearLayout>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_margin="5dp"
+		android:id="@+id/updateButton" android:text="@string/update"
+		android:textSize="20sp"></Button>
+	<FrameLayout android:layout_height="fill_parent" android:id="@+id/frameLayout1" android:layout_width="match_parent">
+		<ProgressBar android:id="@+id/updateProgress" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Large" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_margin="5dp"></ProgressBar>
+		<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/updatingTextView" android:layout_gravity="center_horizontal" android:text="@string/updatingdot" android:textSize="20sp" android:layout_margin="5dp"></TextView>
+	</FrameLayout>
+</LinearLayout>

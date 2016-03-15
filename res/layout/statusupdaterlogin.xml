@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal"
+		android:textColor="#9cc9c6" android:textStyle="bold" android:textSize="25sp"
+		android:layout_margin="5dp" android:id="@+id/titleTextView" android:text="@string/login"/>
+	<TextView android:id="@+id/phoneNumberTextView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:textSize="20sp"
+		android:layout_marginBottom="5dp" android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp" android:layout_marginTop="5dp"
+		android:text="@string/phonenumber"></TextView>
+	<EditText android:layout_height="wrap_content" android:id="@+id/phoneNumberEditText"
+		android:layout_width="match_parent" android:layout_marginBottom="5dp"
+		android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+		android:layout_marginTop="5dp"></EditText>
+	<TextView android:id="@+id/passwordTextView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:textSize="20sp"
+		android:layout_marginBottom="5dp" android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp" android:layout_marginTop="5dp"
+		android:text="@string/enterpassword"></TextView>
+	<EditText android:layout_height="wrap_content" android:id="@+id/passwordEditText"
+		android:layout_width="match_parent" android:layout_marginBottom="5dp"
+		android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+		android:layout_marginTop="5dp"></EditText>
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/verificationTextView" android:text="@string/enterverificationcode" android:textSize="20sp" android:layout_margin="5dp" android:visibility="gone"></TextView>
+	<EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/verificationEditText" android:layout_margin="5dp" android:visibility="gone"></EditText>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="@string/login" android:layout_margin="5dp" android:id="@+id/loginButton"></Button>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+		<ImageButton android:id="@+id/newUserImageButton" android:src="@drawable/icon" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="0.5"></ImageButton>
+		<ImageButton android:src="@drawable/icon" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="0.5" android:id="@+id/verificationImageButton"></ImageButton>
+	</LinearLayout>
+	<FrameLayout android:id="@+id/frameLayout1"
+		android:layout_width="match_parent" android:layout_height="fill_parent">
+		<ProgressBar android:layout_height="wrap_content"
+			style="@android:style/Widget.ProgressBar.Large" android:layout_width="wrap_content"
+			android:layout_gravity="center" android:layout_margin="5dp" android:id="@+id/loginProgress"></ProgressBar>
+		<TextView android:layout_width="wrap_content" android:textSize="20sp" android:layout_gravity="center_horizontal" android:layout_margin="5dp" android:layout_height="wrap_content" android:id="@+id/loggingTextView" android:text="@string/loggingdot"></TextView>
+	</FrameLayout>
+
+</LinearLayout>

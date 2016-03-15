@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StatusUpdaterActivity!</string>
+    <string name="app_name">Status Updater</string>
+    <string name="statustext">Status Message</string>
+    <string name="update">Update</string>
+    <string name="updating">Updating</string>
+    <string name="updatingdot">Updating...</string>
+    <string name="updatesuccess">Updated successfully</string>
+    <string name="updatefailed">Update failed.</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="registration">Registration</string>
+    <string name="phonenumber">Your Mobile Number: </string>
+    <string name="enterpassword">Enter Password: </string>
+    <string name="reenterpassword">Re-enter Password: </string>
+    <string name="register">Register</string>
+    <string name="registeringdot">Registering...</string>
+    <string name="registersuccess">Registered Successfully</string>
+    <string name="registerfailed">Registration Failed</string>
+    <string name="login">Login</string>
+    <string name="loggingdot">Logging in...</string>
+    <string name="loginsuccess">Logged in Successfully</string>
+    <string name="loginfailed">Login Failed</string>
+    <string name="verify">Verify</string>
+    <string name="verifyingdot">Verifying...</string>
+    <string name="verification">Verification</string>
+    <string name="verificationsuccess">Verified Successfully</string>
+    <string name="verificationfailed">Verification Failed</string>
+    <string name="enterverificationcode">Enter Verification Code: </string>
+</resources>
